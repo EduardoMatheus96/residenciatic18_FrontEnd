@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula1</title>
+</head>
+<body>
+    <h1 class="title">Olá Mundo</h1>
+    <div class="text_button_wilton">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias ex, perspiciatis soluta eos et nulla error aliquid consequuntur. Excepturi atque voluptatum omnis fuga quibusdam assumenda ex odio labore in repudiandae.</p>
+    
+        <br>
+        <button class="button_wilton" type="button">
+            <a href="https://br.linkedin.com/in/wilton-freire-8b12121a9" target="_blank">WILTON</a>
+        </button>
+        <button class="button_welvis" type="button">
+            <a href="https://br.linkedin.com/in/welvis/en?trk=people-guest_people_search-card" target="_blank">
+                WELVIS
+            </a>
+            </button>
+    </div>
+    <br>
+    <div class="listas_nomes">
+        <ul>
+            <li>Primeiro nome</li>
+            <li>Segundo Nome</li>
+            <li>Terceiro Nome</li>
+        </ul>
+
+        <ol>
+            <li>Primeiro Item</li>
+            <li>Segundo Item</li>
+            <li>Terceiro Item</li>
+        </ol>
+    </div>
+
+    <br>
+    <div class="imagem">
+        <img 
+        src="https://media.licdn.com/dms/image/C4D03AQFHlETg0itDuA/profile-displayphoto-shrink_800_800/0/1667864882148?e=2147483647&v=beta&t=D2PuFbZLeQVjbG2jnQex9ukEbToHfdUCbGVnAcDuV7c" 
+        alt="Wilton Perfil">
+        <img 
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0GNXzdZgCnxyEWFXDDcoDxR2UoIc6wzg6s3rrdAmpa2Roj3iC7jBMZnXV_Nl_bLGS2qA&usqp=CAU" 
+        alt="Wilton Perfil">
+    </div>
+   
+    <div class="tabela">
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Avaliação</th>
+            </tr>
+            <tr> 
+                <td> Celular</td> 
+                <td> R$ 1200,00</td>
+                <td> 🌟🌟🌟🌟</td>
+            </tr>
+            <tr>  
+                <td> Televisão</td> 
+                <td> R$ 2600,00</td>
+                <td> 🌟🌟</td>
+            </tr>
+            <tr>  
+                <td> Mouse</td> 
+                <td> R$ 340,00</td>
+                <td> 🌟🌟🌟🌟 </td>
+            </tr>
+            <tr>  
+                <td> RTX 3060 TI</td> 
+                <td> R$ 2200,00</td>
+                <td> 🌟🌟🌟🌟🌟</td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+</html>
+
+<style>
+    .title {
+        color: aqua;
+    }
+
+    .button_wilton {
+        background-color: black;
+        border-radius: 4px;
+        width: 100px;
+        height: 40px;
+        transition-duration: 0.8s;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .button_welvis{
+        background-color: blue;
+        color: white;
+        border-radius: 4px;
+        width: 100px;
+        height: 40px;
+        transition-duration: 0.8s;
+    }
+
+    button:hover{
+        background-color: gray; /* Green */
+        color: white;
+    }
+
+    .text_button_wilton {
+        flex-direction: row;
+    }
+
+    .listas_nomes {
+        background: #900;
+        color: #FFF;
+        padding: 10px;
+        background-color: brown;
+        border: 4px solid #000;
+        border-radius: 5%;
+        flex: content;
+        display: flex;
+        width: fit-content;
+        flex-direction: column;
+    }
+
+    .imagem {
+        display: flex;
+        flex: auto;
+        flex-direction: row;
+        padding: 12px;
+    }
+    img {
+        width: 200px;
+        height: 200px;
+        padding-right: 12px;
+    }
+
+    table {
+        table-layout: fixed;
+        width: 80%;
+        border-collapse: collapse;
+        border: 3px solid black;
+        align-items: center;
+    }
+    th,td {
+        padding: 16px;
+        border: 1px solid black;
+    }
+    
+    .estrela {
+        width: 170px;
+        height: 100px;
+    }
+
+</style>
