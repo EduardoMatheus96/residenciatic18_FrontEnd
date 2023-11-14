@@ -1,0 +1,64 @@
+# Arquivos temporários
+.DS_Store
+Thumbs.db
+
+# Logs e arquivos gerados pelo sistema
+logs
+*.log
+npm-debug.log*
+
+# Diretório node_modules
+node_modules/
+
+# Dependências específicas do sistema
+.idea
+.vscode
+
+# Arquivos de compilação
+dist/
+build/
+
+# Arquivos de configuração
+.env
+.env.local
+.env.*.local
+
+# Arquivos de build
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+
+# Diretório gerado pela aplicação
+public/
+
+# Dependências
+# /bower_components
+# /jspm_packages
+
+# Webpack
+/dist
+/node_modules
+
+# TypeScript
+*.tsbuildinfo
+
+# Arquivos de projeto
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de configuração do IDE
+/.idea
+
+# Arquivos de cache e backup
+*.log
+*.swp
+*~
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Cache do npm
+.npm
