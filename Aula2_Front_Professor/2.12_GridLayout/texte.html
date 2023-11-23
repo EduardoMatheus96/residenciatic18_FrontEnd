@@ -7,10 +7,17 @@
     <title>Posicionamento</title>
     <style>
         .container{
+            background-color: #F4BF96;
+            margin: 10px auto;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 100px 50px;
-            color: blue;
+            grid-template-columns: 1fr 20% 1fr;
+            /* grid-template-rows: 100px 50px; */
+            grid-template-rows: repeat(3, 100px);
+            /* color: blue; */
+            row-gap: 20px;
+            column-gap: 20px;
+            grid-auto-rows: 50px;
+            
         }
 
         .i1{
@@ -19,7 +26,7 @@
 
         .i2{
             background-color: firebrick;
-            grid-column: span 2;
+            /* grid-column: span 2; */
         }
 
         .i3 {
@@ -41,6 +48,13 @@
         .i7  {
             background-color: rgb(0, 0, 0)
         }
+        .i8 {
+            background-color: crimson
+        }
+
+        .i9  {
+            background-color: darkslategray
+        }
     </style>
 </head>
 <body>
@@ -52,6 +66,8 @@
         <div class="i5">5</div>
         <div class="i6">6</div>
         <div class="i7">7</div>
+        <div class="i8">8</div>
+        <div class="i9">9</div>
     </div>
     
 </body>
