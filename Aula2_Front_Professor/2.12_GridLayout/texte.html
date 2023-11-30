@@ -1,0 +1,74 @@
+<!--https://www.w3schools.com/css/css_grid.asp-->
+<!--https://cssgridgarden.com/-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Posicionamento</title>
+    <style>
+        .container{
+            background-color: #F4BF96;
+            margin: 10px auto;
+            display: grid;
+            grid-template-columns: 1fr 20% 1fr;
+            /* grid-template-rows: 100px 50px; */
+            grid-template-rows: repeat(3, 100px);
+            /* color: blue; */
+            row-gap: 20px;
+            column-gap: 20px;
+            grid-auto-rows: 50px;
+            
+        }
+
+        .i1{
+            background-color: red;
+        }
+
+        .i2{
+            background-color: firebrick;
+            /* grid-column: span 2; */
+        }
+
+        .i3 {
+            background-color: khaki;
+        }
+
+        .i4 {
+            background-color: lightblue;
+        }
+
+        .i5 {
+            background-color: palevioletred
+        }
+
+        .i6 {
+            background-color: aqua
+        }
+
+        .i7  {
+            background-color: rgb(0, 0, 0)
+        }
+        .i8 {
+            background-color: crimson
+        }
+
+        .i9  {
+            background-color: darkslategray
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="i1">1</div>
+        <div class="i2">2</div>
+        <div class="i3">3</div>
+        <div class="i4">4</div>
+        <div class="i5">5</div>
+        <div class="i6">6</div>
+        <div class="i7">7</div>
+        <div class="i8">8</div>
+        <div class="i9">9</div>
+    </div>
+    
+</body>
+</html>

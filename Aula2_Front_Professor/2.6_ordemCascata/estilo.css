@@ -1,0 +1,61 @@
+ol {
+    color: red;
+}
+
+h1 {
+    color: blue;
+    color: brown;
+    color: blueviolet;
+}
+
+li {
+    color: aqua;
+}
+
+#prima-id{
+    color: black;
+}
+
+.prima-class{
+    color: blueviolet ;
+}
+
+li[draggable]{
+    color:chartreuse !important;
+}
+
+/* Exercicio 04 */
+
+#caixa-externa{
+    /* display: flexbox; */
+    background-color: blueviolet;
+    padding: 8px;
+}
+
+.caixa{
+    display: flexbox;
+    background-color: blue;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+p{
+    margin: 0;
+}
+
+.caixa p {
+    color: yellow;
+}
+
+.caixa-interna{
+    color: white;
+    background-color: red;
+    padding: 0px;
+}
+
+.caixa-interna p {
+    color: white;
+}

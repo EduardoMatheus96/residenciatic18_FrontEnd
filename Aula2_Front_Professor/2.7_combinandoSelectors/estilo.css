@@ -1,0 +1,41 @@
+
+h2, h5{
+    color: rgb(219, 219, 33);
+}
+
+.caixa{
+    display: flexbox;
+}
+
+.caixa p{
+    color: blue;
+
+}
+.caixa .alimentos{
+    color: aqua;
+}
+
+.lista li{
+    color: orange;
+}
+
+.lista .usada{
+    color: darkorchid;
+}
+
+.caixa p.alimentos+ul li{
+    color: orange;
+    
+}
+
+.moveis{
+    color: orange;
+}
+
+.moveis .usada{
+    color: greenyellow;
+}
+
+p{
+    font-weight: bold;
+}
