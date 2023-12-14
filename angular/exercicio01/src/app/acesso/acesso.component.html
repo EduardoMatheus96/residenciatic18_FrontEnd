@@ -1,0 +1,8 @@
+<div>
+  <p>Login:</p>
+  <input type="text" [value]="login"> <br> <br>
+  <button (click)="onClick()" [disabled] = 'isLogged' [value]="verifyPermission()">Logar</button>
+  <p *ngIf="!isLogged">Logado</p>
+</div>
+
+
