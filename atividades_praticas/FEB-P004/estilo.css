@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-destinos {
+    display: flex;
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    gap: 40px;
+    padding: 12px;
+    justify-content: center;
+    
+}
+.roteiros-viagens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: flex-start; */
+    background-color: rgb(204, 173, 233);
+    /* border: 2px solid black; */
+    border-radius: 6px;
+    max-width: 200px;
+    height: 400px;
+    padding: 20px;
+
+    margin-bottom: 20px; 
+}
+
+.roteiros-viagens img{
+    width: 160px;
+    height: 100px;
+
+    object-fit: cover; /* Garante que a imagem se ajuste ao contêiner */
+    border-radius: 4px; /* Borda arredondada para a imagem */
+}
+
+.roteiro-destino{
+    font-size: 18px;
+    font-weight: bold;
+    color: purple;
+    padding: 16px;
+}
+
+.roteiro-incluso{
+    font-size: 16px; /* Tamanho reduzido para caber mais informações */
+    font-weight: 400;
+    color: purple;
+    padding: 8px 16px; /* Espaçamento ajustado */
+}
+
+.roteiro-preco{
+    font-size: 20px;
+    font-weight: bold;
+    color: purple;
+    padding: 4px;
+}
+
+.roteiro-obs{
+    font-size: 14px;
+    font-weight: 400;
+    color: purple;
+    padding: 1px;
+}
+
+.roteiro-parcelamento{
+    font-size: 14px;
+    font-weight: 400;
+    color: purple;
+    padding: 1px;
+}
+
+.roteiro-comprar{
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(133, 209, 57);
+    color: white;
+    width: 75px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px transparent;
+    margin-top: 6px;
+
+    transition: background-color 0.3s, color 0.3s, transform 0.3s, cursor 0.3s;
+}
+
+.roteiro-comprar:hover {
+    background-color: rgb(109, 173, 255); /* Nova cor ao passar o mouse */
+    color: white; /* Nova cor do texto ao passar o mouse */
+    cursor: pointer; /* Altera o cursor ao passar o mouse */
+}
+
+.roteiro-comprar:active {
+    transform: scale(0.95); /* Diminui a escala ao clicar */
+}
+
+/* Estilos para o formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: purple;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(133, 209, 57);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: rgb(109, 173, 255);
+    color: white;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
+@media (max-width: 1200px) {
+    .container-destinos{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+}
+
