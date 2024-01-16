@@ -1,0 +1,10 @@
+.item01 {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  grid-area: 1/1/1/4;
+
+  background-color: blue;
+}
