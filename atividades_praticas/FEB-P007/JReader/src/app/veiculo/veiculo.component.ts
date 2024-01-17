@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-veiculo',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrl: './veiculo.component.css'
 })
 export class VeiculoComponent {
+  @Input() nomesVeiculos: string[] = [];
+  exibirBotoesRodape: boolean = true;
+
+  acaoBotao1() {
+  }
 
 }
