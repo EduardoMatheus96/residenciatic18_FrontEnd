@@ -31,7 +31,7 @@
 
 /* Botão azul com nome de veículo */
 .botao-azul {
-  background-color: blueviolet;
+  background-color: blue;
   color: white;
   margin: 5px;
   padding: 8px 15px;
@@ -49,7 +49,7 @@
 
 /* Efeito hover para o botão azul */
 .botao-azul:hover {
-  background-color: blueviolet;
+  background-color: darkblue;
 }
 
 /* Estilo para botão azul desabilitado */
@@ -79,7 +79,7 @@
 
 /* Efeito hover para o botão laranja */
 .botao-laranja:hover {
-  background-color: red;
+  background-color: darkorange;
 }
 
 /* Estilo para botão laranja desabilitado */
@@ -91,7 +91,7 @@
 
 /* Botão azul com nome de veículo dentro da categoria */
 .botao-azul {
-  background-color: blueviolet;
+  background-color: blue;
   color: white;
   margin: 5px;
   padding: 8px 15px;
@@ -109,7 +109,7 @@
 
 /* Efeito hover para o botão azul dentro da categoria */
 .botao-azul:hover {
-  background-color: blueviolet;
+  background-color: darkblue;
 }
 
 /* Estilo para botão azul desabilitado dentro da categoria */
