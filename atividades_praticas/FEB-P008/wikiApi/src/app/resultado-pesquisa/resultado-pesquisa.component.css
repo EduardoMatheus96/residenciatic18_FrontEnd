@@ -1,0 +1,21 @@
+.resultado-pesquisa {
+  list-style: none;
+  padding: 0;
+}
+
+.resultado-pesquisa li {
+  margin-bottom: 10px;
+}
+
+.resultado-pesquisa a {
+  text-decoration: none;
+  color: black;
+}
+
+.resultado-pesquisa a:hover {
+  color: blue;
+}
+
+.highlight {
+  background-color: yellow;
+}
