@@ -2,11 +2,6 @@
   <li *ngFor="let resultado of resultados">
     <h2>{{ resultado.title }}</h2>
     <p [innerHTML]="resultado.snippet | highlightPipe: termo"></p>
-    <a href="{{resultado.url}}">{{resultado.title | highlightPipe:termo}}</a>
+    <a href="https://en.wikipedia.org/?curid={{ resultado.pageid }}">Leia mais...</a>
   </li>
 </ul>
-<!-- <div *ngFor="let resultado of resultados">
-  <h2>{{ resultado.title }}</h2>
-  <p [innerHTML]="resultado.snippet | highlightPipe: termo"></p>
-  <a href="https://en.wikipedia.org/?curid={{ resultado.pageid }}">Leia mais...</a>
-</div> -->
