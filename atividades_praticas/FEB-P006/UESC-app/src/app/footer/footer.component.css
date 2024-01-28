@@ -1,0 +1,12 @@
+.item08 {
+  display: flex;
+  grid-area: 4/1/4/4;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  position: sticky;
+  /* bottom: 0; */
+
+  background-color: crimson;
+}

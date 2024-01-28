@@ -1,0 +1,12 @@
+.item02{
+  background-color: aqua;
+  /* padding: 8px; */
+
+}
+.lista-menu{
+  display: flex;
+  height: 50px;
+  padding-left: 8px;
+  align-items: end;
+  border-bottom: 2px solid black;
+}
