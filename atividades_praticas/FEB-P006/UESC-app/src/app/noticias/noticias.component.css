@@ -1,4 +1,35 @@
-.item06{
-  grid-area: 3/2/3/4;
-  background-color: chartreuse;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vina+sans-serif&display=swap');
+
+.noticias{
+  grid-column: 2 / 4;
+  grid-row: 2 / 4;
+  background-color: chocolate;
+  height: 100%;
+  padding: 20px;
+}
+
+.noticias div{
+  font-size: 150%;
+}
+
+p ,a{
+  padding: 8px;
+
+}
+p{
+  font-family: 'Vina Sans', sans-serif;
+}
+a{
+  margin: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width: 500px) {
+  .noticias {
+      background-color: #444;
+      grid-column: 2 / 4;
+      grid-row: 4 / 6;
+  }
 }

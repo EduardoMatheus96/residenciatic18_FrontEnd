@@ -1,10 +1,30 @@
-.item01 {
-  display: flex;
+.box {
+  background-color: #444;
+  color: #fff;
   padding: 20px;
-  text-align: center;
+  font-size: 150%;
+}
+img {
+  width: 150px;
+  height: 100px;
+}
+
+.header {
+  grid-column: 1 / 5;
+  background-color: blue;
   align-items: center;
   justify-content: center;
-  grid-area: 1/1/1/4;
+  display: flex;
+  font-family: "Ubuntu";
+  font-size: 22px;
+}
 
-  background-color: blue;
+@media (max-width: 500px) {
+  .header {
+      grid-column: 2 / 4;
+      grid-row: 1 / 2;
+      background-color: #a09696;
+      display: flex;
+      font-family: 'Vina Sans', sans-serif;
+  }
 }

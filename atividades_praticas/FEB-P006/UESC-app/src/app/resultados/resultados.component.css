@@ -1,4 +1,16 @@
-.item06{
-  grid-area: 3/2/3/4;
+.resultados {
+  grid-column: 3 / 5;
+  grid-row: 4 / 5;
   background-color: chartreuse;
+  padding: 20px;
+  height: 100%;
+  width: 200%;
+}
+
+@media (max-width: 500px) {
+  .resultados {
+    background-color: #444;
+    grid-column: 2 / 4;
+    grid-row: 10 / 12;
+  }
 }

@@ -1,12 +1,19 @@
-.item02{
+.menu {
+  grid-column: 1 / 1;
+  grid-row: 2 / 4;
+  grid-row-start: 2;
+  font-family: "Vina Sans", sans-serif;
   background-color: aqua;
-  /* padding: 8px; */
+  height: 100%;
+  padding: 20px;
 
 }
-.lista-menu{
-  display: flex;
-  height: 50px;
-  padding-left: 8px;
-  align-items: end;
-  border-bottom: 2px solid black;
+
+@media (max-width: 500px) {
+  .menu {
+      background-color: #444;
+      grid-column: 2 / 4;
+      grid-row: 2 / 4;
+  }
+
 }
