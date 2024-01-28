@@ -3,7 +3,7 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 @Component({
   selector: 'app-propriedades',
   templateUrl: './propriedades.component.html',
-  styleUrl: './propriedades.component.css'
+  styleUrls: ['./propriedades.component.css']
 })
 export class PropriedadesComponent {
   @Input() veiculos: any[] = [];

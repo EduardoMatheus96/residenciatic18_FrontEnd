@@ -3,7 +3,7 @@ import { Component, EventEmitter, Input, Output, SimpleChanges } from '@angular/
 @Component({
   selector: 'app-objetos',
   templateUrl: './objetos.component.html',
-  styleUrl: './objetos.component.css'
+  styleUrls: ['./objetos.component.css']
 })
 export class ObjetosComponent {
   @Input() categoriaSelecionada: string | null = null;

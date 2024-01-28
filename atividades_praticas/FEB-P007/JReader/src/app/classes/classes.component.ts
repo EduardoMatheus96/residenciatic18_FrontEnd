@@ -7,7 +7,7 @@ interface Veiculo {
 @Component({
   selector: 'app-classes',
   templateUrl: './classes.component.html',
-  styleUrl: './classes.component.css'
+  styleUrls: ['./classes.component.css']
 })
 export class ClassesComponent {
   @Output() selecionarCategoria = new EventEmitter<string>();

@@ -3,9 +3,9 @@ import { ChangeDetectorRef, Component, Input, SimpleChanges } from '@angular/cor
 @Component({
   selector: 'app-valor-propriedades',
   templateUrl: './valor-propriedades.component.html',
-  styleUrl: './valor-propriedades.component.css'
+  styleUrls: ['./valor-propriedades.component.css']
 })
-export class ValorPropriedadesComponent {
+export class ValorPropriedadeComponent {
   constructor(private cdr: ChangeDetectorRef) { }
   @Input() tituloSelecionado: string = '';
   @Input() veiculoSelecionado: any;
